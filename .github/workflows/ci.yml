@@ -23,7 +23,7 @@ jobs:
         run: npm ci
 
       - name: Run ESLint
-        run: npm run list
+        run: npm run lint
 
       - name: Build Next.s application
         run: npm run build
